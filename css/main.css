@@ -1,0 +1,48 @@
+.action {
+  margin-top: 20%;
+}
+
+.bg {
+  background: url('../img/bg.jpg') no-repeat center;
+  background-attachment: fixed
+  background-size: cover;
+  height: 100%;
+  position: relative;
+
+}
+
+.btn-action {
+  background-color: #f67d42;
+  width: 50%;
+}
+
+.message {
+  margin-top: 15%;
+}
+
+.parallax {
+  background-size: cover;
+  display: block;
+  position: relative;
+  width: 100%;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 200px
+}
+
+.slide {
+  height: 667px;
+}
+
+#what-is-it {
+  background-image: url('../img/hackerspace.jpg');
+}
+
+#opening {
+  background-image: url('../img/opening.jpg');
+}
+
+#getting-involved {
+  background-image: url('../img/involved.jpg');
+}
