@@ -37,6 +37,30 @@ body {
   background-color: #fff;
 }
 
+.section h2 {
+  display: block;
+  height: 92px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 1.7em;
+  line-height: 92px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 60px 0;
+  color: #ff675f;
+  background: url('../img/h2.png') center center no-repeat;
+}
+
+.section p {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: center;
+  color: #444;
+  margin: -12px 0 51px 0;
+}
+
 .main-navigation {
   height: 50px;
 }
@@ -64,7 +88,7 @@ body {
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 200px
+  height: 400px
 }
 
 .slide {
