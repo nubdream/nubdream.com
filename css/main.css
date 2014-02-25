@@ -2,18 +2,50 @@
   margin-top: 20%;
 }
 
+.col-action {
+  height: 60px;
+}
+
 .bg {
   background: url('../img/bg.jpg') no-repeat center;
   background-attachment: fixed
   background-size: cover;
   height: 100%;
   position: relative;
+  width: 100%;
 
 }
 
 .btn-action {
   background-color: #f67d42;
-  width: 50%;
+  border: 1px solid #fff;
+  font-weight: 600;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  height: 100%;
+  width: 45%;
+  transition: all 0.5s;
+}
+
+.btn-action:hover {
+  color: #f67d42;
+  background-color: #fff;
+}
+
+.main-navigation {
+  height: 50px;
+}
+
+.logo {
+  color: #f67d42 !important;
+  font-size: 1em;
+}
+
+.logo span{
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1.3em;
 }
 
 .message {
@@ -33,6 +65,18 @@
 
 .slide {
   height: 667px;
+}
+
+.slogan {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 2em;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+}
+
+.slogan span {
+  font-weight: bold;
 }
 
 #what-is-it {
