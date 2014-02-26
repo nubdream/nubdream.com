@@ -23,13 +23,17 @@ body {
 .btn-action {
   background-color: #f67d42;
   border: 1px solid #fff;
-  font-weight: 600;
+  color: #fff;
+  display: inline-block;
   font-size: 1.5em;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  font-weight: 600;
   height: 100%;
-  width: 45%;
+  letter-spacing: 1px;
+  line-height: 35px;
+  text-decoration: none;
+  text-transform: uppercase;
   transition: all 0.5s;
+  width: 45%;
 }
 
 .btn-action:hover {
