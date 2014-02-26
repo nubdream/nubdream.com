@@ -170,6 +170,36 @@ body {
   font-weight: bold;
 }
 
+.social {
+  color: #fff;
+  text-align: center;
+  padding: 0;
+}
+
+.social li {
+  margin: 10px;
+  display: inline-block;
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.social i {
+  line-height: 2;
+  font-size: 1.5em;
+}
+
+#link-twitter {
+  background-color: #57C2F2;
+}
+
+#link-facebook {
+  background-color: #768CC0;
+}
+
 #what-is-it {
   background-image: url('../img/hackerspace.jpg');
 }
