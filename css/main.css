@@ -2,6 +2,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+footer {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+}
+
+footer span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .row-action {
   margin-top: 20%;
 }
