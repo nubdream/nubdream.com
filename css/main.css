@@ -13,7 +13,7 @@ footer span {
 }
 
 .row-action {
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 .col-action {
@@ -44,10 +44,11 @@ footer span {
 
 .btn-action {
   border: 1px solid #fff;
+  border-radius: 0;
   color: #fff;
   display: inline-block;
-  font-size: 1.5em;
-  font-weight: 600;
+  font-size: 2em;
+  font-weight: 200;
   height: 100%;
   letter-spacing: 1px;
   line-height: 35px;
