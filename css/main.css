@@ -30,8 +30,19 @@ footer span {
 
 }
 
+.invitation-message {
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.invitation-message span {
+  font-weight: bold;
+}
+
 .btn-action {
-  background-color: #f67d42;
   border: 1px solid #fff;
   color: #fff;
   display: inline-block;
@@ -46,7 +57,20 @@ footer span {
   width: 45%;
 }
 
-.btn-action:hover {
+.participa {
+  background-color: #f67d42;
+}
+
+.boletia {
+  content: '';
+  background: #222 url('../img/boletia-logo.png') no-repeat center;
+}
+
+.boletia:hover {
+  background-color: #009fd2;
+}
+
+.participa:hover {
   color: #f67d42;
   background-color: #fff;
 }
