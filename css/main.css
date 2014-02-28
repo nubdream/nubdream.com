@@ -64,9 +64,22 @@ footer span {
   background: #eee;
 }
 
+#ury-sarabia:before {
+  background-image: url('http://m.c.lnkd.licdn.com/media/p/2/000/29a/096/328c061.jpg');
+}
+
+#cesar-gaytan:before {
+  background-image: url('http://m.c.lnkd.licdn.com/media/p/1/000/18c/379/1e84691.jpg');
+}
+
+#santiago-espejo:before {
+  background-image: url('http://new.hackergarage.mx/wp-content/connection_images/Santiago_entry.jpg');
+}
+
 .speaker-image:before {
   content: '';
   background-color: #fff;
+  background-size: cover;
   display: inline-block;
   width: 180px;
   height: 180px;
@@ -96,7 +109,7 @@ footer span {
 }
 
 .body {
-  border-top: #cfd3de 1px solid;
+  border-top: #FF675F 1px solid;
   color: #777;
   font-family: 'Open Sans';
   font-size: 0.9;
