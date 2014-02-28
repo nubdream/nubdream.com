@@ -164,6 +164,35 @@ footer span {
   height: 400px
 }
 
+.mapa {
+  height: 400px
+  display: block;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.quote {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  padding: 10px;
+}
+
+.quote p {
+  font-size: 1.7em;
+  font-style: italic;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.quote i {
+  font-size: 1em;
+}
+
+.quote span {
+  font-size: 1.3em;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
 .slide {
   height: 667px;
 }
