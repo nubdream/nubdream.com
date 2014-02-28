@@ -253,7 +253,8 @@ footer span {
   padding: 0;
 }
 
-.social li {
+.social a {
+  color: #fff;
   margin: 10px;
   display: inline-block;
   background-color: red;
