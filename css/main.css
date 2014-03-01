@@ -3,7 +3,7 @@ body {
 }
 
 footer {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
   color: #000;
 }
 
@@ -136,7 +136,7 @@ footer span {
 .body {
   border-top: #FF675F 1px solid;
   color: #777;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', 'Roboto', sans-serif;
   font-size: 0.9;
   line-height: 1.6;
   margin-top: 10px;
@@ -151,7 +151,7 @@ footer span {
 .section h2 {
   display: block;
   height: 92px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 1.7em;
   line-height: 92px;
@@ -163,7 +163,7 @@ footer span {
 }
 
 .section p {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 1.2em;
   line-height: 1.6;
