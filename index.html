@@ -1,75 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta>
+<meta charset='utf-8'>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-<title>Cover Template for Bootstrap</title>
+<title>NubDream</title>
 
 <!-- Bootstrap core CSS -->
-<link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Custom styles for this template -->
-<link href="cover.css" rel="stylesheet">
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,900,100' rel='stylesheet' type='text/css'>
 
-<!-- Just for debugging purposes. Don't actually copy this line! -->
-<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<!-- Font Awesome -->
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-                                                                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-                                                                      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-                                                                          <![endif]-->
+<!-- Custom styles for cover -->
+<link href="css/cover.css" rel="stylesheet">
+
+<!-- Custom styles -->
+<link href="css/main.css" rel="stylesheet">
+
 </head>
 
 <body>
 
 <div class="site-wrapper">
 
-    <div class="site-wrapper-inner">
+  <div class="site-wrapper-inner">
 
-        <div class="cover-container">
+    <nav class="navbar navbar-default navbar-fixed-top main-navigation" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target="#main-navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="#"><span>nubdream</span>
+          hackerspace</a>
+        </div>
 
-            <div class="masthead clearfix">
-                <div class="inner">
-                    <h3 class="masthead-brand">Cover</h3>
-                    <ul class="nav masthead-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
+        <div class="collapse navbar-collapse" id="main-navigation">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#what-is-it">¿Qué es?</a></li>
+            <li><a href="#opening">Inauguración</a></li>
+            <li><a href="#getting-involved">Participa</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class='slide'>
+      <div class='bg'>
+        <div class='container'>
+          <div class='row message'>
+            <div class='col-lg-6 col-lg-offset-3'>
+              <h1 class='slogan'><span>Remasterizando</span> tu <span>aprendizaje<span></h1>
             </div>
-
-            <div class="inner cover">
-                <h1 class="cover-heading">Cover your page.</h1>
-                <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-                <p class="lead">
-                <a href="#" class="btn btn-lg btn-default">Learn more</a>
-                </p>
+          </div>
+          <div class='row row-action'>
+            <div class='col-lg-6 col-action'>
+              <a class='btn btn-lg btn-action participa'
+                href='https://nubdream.boletia.com'/>participa</a>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <div class="mastfoot">
-                <div class="inner">
-                    <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+    <div class='parallax' id='what-is-it' data-speed='3'>
+      <div class='quote'>
+        <p><i class='fa fa-quote-left'></i> Mi crimen es la curiosidad. <i
+          class='fa fa-quote-right'></i></p>
+        <span>-- Manifiesto Hacker</span>
+      </div>
+    </div>
+
+
+
+    <div class='container section'>
+      <div class='row'>
+        <div class='col-lg-8 col-lg-offset-2'>
+          <h2>¿Qué es un hackerspace?</h2>
+          <p>Hackerspace se podría describir como un lugar físico donde se
+          pueden unir toda aquella persona que le guste el ingenio, la
+          creatividad,  crear sus propios productos, modificar los existentes,
+          cooperar y aprender. </p>
+
+          <p>Allí comparten sus conocimientos para fabricar
+          cosas que solos habrían sido incapaces. Existen multitud de variantes
+          a estos espacios, como son los makerspace o fablab, pero decidimos
+          ceñirnos a este término por ser la opción más abierta y general.</p>
+
+          <p>Con esto en mente, pretendemos crear un lugar de reunión para
+          aquellos que deseen crear sus prototipos o proyectos de cualquier
+          índole, ya sea basada en electrónica, programación, ciencia, etcétera,
+          apoyando sus ideas en los conocimientos y habilidades del grupo.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class='parallax' id='opening' data-speed='2'>
+      <div class='container'>
+        <div class='row row-action'>
+          <div class='col-lg-6 col-action'>
+            <a class='btn btn-lg btn-action boletia' href='https://nubdream.boletia.com/'></a>
+          </div>
+          <div class='col-lg-6 col-action-message'>
+            <p class='invitation-message'><span>Regístrate</span> y aparta tu
+            <span>boleto</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class='container section'>
+      <div class='row'>
+        <div class='col-lg-8 col-lg-offset-2'>
+          <h2>Inauguración</h2>
+          <p>Acompañanos a la inauguración del primer hackerspace del sur de
+          Jalisco.</p>
+
+          <p>Como parte del evento, contaremos con distinguidas
+          personalizades que no haran el honor de compartir un poco de su area
+          de expertise.</p>
+
+            <div class='row'>
+              <div class='col-lg-4'>
+                <div class='speaker'>
+                  <div id='ury-sarabia' class='speaker-image'></div>
+                  <div class="name">Ury Sarabia</div>
+                  <div class="title">Co-funder Startup Essentials</div>
+                  <div class="body">Emprendimientos Tecnologicos</div>
                 </div>
+              </div>
+              <div class='col-lg-4'>
+                <div class='speaker'>
+                  <div id='cesar-gaytan' class='speaker-image'></div>
+                  <div class="name">Cesar Gaytan</div>
+                  <div class="title">Hacker Garage</div>
+                  <div class="body">Bitcoin: Monedas Encriptadas</div>
+                </div>
+              </div>
+              <div class='col-lg-4'>
+                <div class='speaker'>
+                  <div id='santiago-espejo' class='speaker-image'></div>
+                  <div class="name">Santiago Espejo</div>
+                  <div class="title">Hacker Garage</div>
+                  <div class="body">Expericias en Hacker Garage</div>
+                </div>
+
+              </div>
             </div>
 
         </div>
-
+      </div>
     </div>
 
-</div>
+    <div class='parallax' id ='getting-involved' data-speed='2'></div>
 
-<!-- Bootstrap core JavaScript
-                                                                                                                                                                                                                                                                                                                                                                                                                                ================================================== -->
+    <div class='container section'>
+      <div class='row'>
+        <div class='col-lg-6 col-lg-offset-3'>
+          <h2>Participa</h2>
+
+          <p>Queremos formar una comunidad en la que el objetivo sea aprender.
+          Y aprender es mas divertido y más fácil si lo hacemos juntos.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class='mapa'>
+      <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.4876365769196!2d-103.459973!3d19.691852750000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f869a458e5cab%3A0x2e8fa9efa3519c72!2sIndio+22!5e0!3m2!1ses-419!2smx!4v1393560322066"
+    width="1240" height="400" frameborder="0" style="border:0"></iframe>
+    </div>
+
+    <div class='container section'>
+      <div class='row'>
+        <div class='col-lg-6 col-lg-offset-3'>
+
+          <p>Estate al pendiente de próximos eventos, meetups y talleres.
+          Siguenos en nuestras redes sociales donde podras enterarte de mas
+          detalles, hagamos de esta una comunidad fuerte.</p>
+
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-lg-4 col-lg-offset-4'>
+          <ul class='social'>
+            <a href='https://twitter.com/nubdream' id='link-twitter'><i class='fa fa-twitter'></i></a>
+            <a href='https://www.facebook.com/nubdream' id='link-facebook'><i class='fa fa-facebook'></i></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<footer class='container'>
+  <div class='row'>
+    <div class='col-lg-4 col-lg-offset-4'>
+      <p>© 2014. <span>nubdream</span> All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script src="../js/docs.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Custom Javascript -->
+<script src="js/parallax.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

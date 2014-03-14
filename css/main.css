@@ -1,0 +1,291 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+  color: #000;
+}
+
+footer span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.row-action {
+  margin-top: 15%;
+}
+
+.col-action {
+  height: 60px;
+}
+
+.bg {
+  background: url('../img/bg.jpg') no-repeat center;
+  background-attachment: fixed
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  width: 100%;
+
+}
+
+.invitation-message {
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.invitation-message span {
+  font-weight: bold;
+}
+
+.btn-action {
+  border: 1px solid #fff;
+  border-radius: 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 200;
+  height: 100%;
+  letter-spacing: 1px;
+  line-height: 35px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  width: 45%;
+}
+
+.participa {
+  background-color: #f67d42;
+}
+
+.boletia {
+  content: '';
+  background: #222 url('../img/boletia-logo.png') no-repeat center;
+}
+
+.boletia:hover {
+  background-color: #009fd2;
+}
+
+.participa:hover {
+  color: #f67d42;
+  background-color: #fff;
+}
+
+.btn-action:focus {
+  outline: none;
+}
+
+.speaker {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 30px 0 10px 0;
+  margin-top: 30px;
+  color: #777;
+  background: #eee;
+}
+
+#ury-sarabia:before {
+  background-image: url('http://m.c.lnkd.licdn.com/media/p/2/000/29a/096/328c061.jpg');
+}
+
+#cesar-gaytan:before {
+  background-image: url('http://m.c.lnkd.licdn.com/media/p/1/000/18c/379/1e84691.jpg');
+}
+
+#santiago-espejo:before {
+  background-image: url('http://new.hackergarage.mx/wp-content/connection_images/Santiago_entry.jpg');
+}
+
+.speaker-image:before {
+  content: '';
+  background-color: #fff;
+  background-size: cover;
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 29px 0 0 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 12px;
+  margin: 11px 0 0 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.body {
+  border-top: #FF675F 1px solid;
+  color: #777;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+  font-size: 0.9;
+  line-height: 1.6;
+  margin-top: 10px;
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.section h2 {
+  display: block;
+  height: 92px;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.7em;
+  line-height: 92px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 60px 0;
+  color: #ff675f;
+  background: url('../img/h2.png') center center no-repeat;
+}
+
+.section p {
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: center;
+  color: #444;
+  margin: -12px 0 51px 0;
+}
+
+.main-navigation {
+  height: 50px;
+}
+
+.logo {
+  color: #f67d42 !important;
+  font-size: 1em;
+}
+
+.logo span{
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1.3em;
+}
+
+.message {
+  margin-top: 15%;
+}
+
+.parallax {
+  background-size: cover;
+  display: block;
+  position: relative;
+  width: 100%;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 400px
+}
+
+.mapa {
+  height: 400px
+  display: block;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.quote {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  padding: 10px;
+}
+
+.quote p {
+  font-size: 1.7em;
+  font-style: italic;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.quote i {
+  font-size: 1em;
+}
+
+.quote span {
+  font-size: 1.3em;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.slide {
+  height: 667px;
+}
+
+.slogan {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 2em;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+}
+
+.slogan span {
+  font-weight: bold;
+}
+
+.social {
+  color: #fff;
+  text-align: center;
+  padding: 0;
+}
+
+.social a {
+  color: #fff;
+  margin: 10px;
+  display: inline-block;
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.social i {
+  line-height: 2;
+  font-size: 1.5em;
+}
+
+#link-twitter {
+  background-color: #57C2F2;
+}
+
+#link-facebook {
+  background-color: #768CC0;
+}
+
+#what-is-it {
+  background-image: url('../img/hackerspace.jpg');
+}
+
+#opening {
+  background-image: url('../img/opening.jpg');
+}
+
+#getting-involved {
+  background-image: url('../img/involved.jpg');
+}
